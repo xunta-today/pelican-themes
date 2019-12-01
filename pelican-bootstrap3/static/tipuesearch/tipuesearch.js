@@ -29,7 +29,7 @@ http://www.tipue.com/search
           'showTime'               : true,
           'showTitleCount'         : true,
           'showURL'                : true,
-          'wholeWords'             : true
+          'wholeWords'             : false
           }, options);
           
           return this.each(function() {
