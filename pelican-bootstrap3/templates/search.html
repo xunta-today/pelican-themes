@@ -9,8 +9,8 @@
 {% include 'includes/minify_tipuesearch.html' with context %}
 {% else %}
 <script src="https://cdn.jsdelivr.net/gh/xunta-today/website@gh-pages/tipuesearch_content.min.js"></script>
-<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch_set.js"></script>
-<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.min.js"></script>
+<script type="text/javascript" src="{{ CDNSITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="{{ CDNSITEURL }}/{{ THEME_STATIC_DIR }}/tipuesearch/tipuesearch.min.js"></script>
 {% endif %}
 <script>
   $(document).ready(function () {
