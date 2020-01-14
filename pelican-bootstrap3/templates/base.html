@@ -220,7 +220,10 @@
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="{{ CDNSITEURL }}/{{ THEME_STATIC_DIR }}/js/respond.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/snaptortoise/konami-js@1.6.2/konami.min.js"></script>
+<script>
+var easter_egg = new Konami('https://igaojin.me/buy-me-a-coffee/?find_a_egg');
+</script>
 {% if CUSTOM_JS %}
     <script src="{{ CDNSITEURL }}/{{ CUSTOM_JS }}"></script>
 {% endif %}
